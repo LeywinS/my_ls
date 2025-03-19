@@ -1,0 +1,3 @@
+# my_ls
+Pour run sur Debian 10
+docker run -it --rm my_ls_image /bin/bash
