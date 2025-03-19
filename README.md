@@ -81,6 +81,10 @@ Si aucun chemin n'est fourni, `my_ls` liste le contenu du répertoire courant.
 - **"No such file or directory"** : Le fichier ou répertoire demandé n'existe pas.
 - **"Invalid option"** : Une option non reconnue a été fournie.
 
+## Run avec le Dockerfile
+
+docker run -it --rm my_ls_image /bin/bash
+
 ## Conclusion
 
 `my_ls` est une alternative à `ls` permettant d'explorer les fichiers et répertoires avec des options variées. Pour toute question ou amélioration, consultez le code source et les commentaires dans les fichiers `*.c` et `*.h`.
