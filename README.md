@@ -83,8 +83,9 @@ Si aucun chemin n'est fourni, `my_ls` liste le contenu du répertoire courant.
 
 ## Run avec le Dockerfile
 
+```
 docker run -it --rm my_ls_image /bin/bash
-
+```
 ## Conclusion
 
 `my_ls` est une alternative à `ls` permettant d'explorer les fichiers et répertoires avec des options variées. Pour toute question ou amélioration, consultez le code source et les commentaires dans les fichiers `*.c` et `*.h`.
